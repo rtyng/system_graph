@@ -1,0 +1,269 @@
+$ python recursion_playground.py
+This is the current list:
+ [1, 2, 3, 4, 5]
+This is the current list:
+ [2, 3, 4, 5]
+This is the current list:
+ [3, 4, 5]
+This is the current list:
+ [4, 5]
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 9
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 12
+This is the current list:
+ [4, 5]
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 9
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 14
+This is the current list:
+ [3, 4, 5]
+This is the current list:
+ [4, 5]
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 9
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 12
+This is the current list:
+ [4, 5]
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 9
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 15
+This is the current list:
+ [2, 3, 4, 5]
+This is the current list:
+ [3, 4, 5]
+This is the current list:
+ [4, 5]
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 9
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 12
+This is the current list:
+ [4, 5]
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 9
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 14
+This is the current list:
+ [3, 4, 5]
+This is the current list:
+ [4, 5]
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 9
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 12
+This is the current list:
+ [4, 5]
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+This is the sum of the current list so far:
+ 9
+This is the current list:
+ [5]
+This is the sum of the current list so far:
+ 5
+15
+(.venv)
+
+
+
+
+$ python recursion_playground.py
+<function sum_list at 0x0000022b709964b0>
+sum_list
+__main__
+sum_list
+()
+(.venv)
+
+- Just learned how to make decorators and wrappers
+    - will be incredibly useful for the rest of the project
+
+
+$ python recursion_playground.py
+Calling count_down with args: (5,), kwargs: {}
+5
+Calling count_down with args: (4,), kwargs: {}
+4
+Calling count_down with args: (3,), kwargs: {}
+3
+Calling count_down with args: (2,), kwargs: {}
+2
+Calling count_down with args: (1,), kwargs: {}
+1
+Calling count_down with args: (0,), kwargs: {}
+Blast off!
+count_down returned: None
+Execution time of count_down: 0.0001 seconds
+count_down returned: None
+Execution time of count_down: 0.0002 seconds
+count_down returned: None
+Execution time of count_down: 0.0003 seconds
+count_down returned: None
+Execution time of count_down: 0.0005 seconds
+count_down returned: None
+Execution time of count_down: 0.0006 seconds
+count_down returned: None
+Execution time of count_down: 0.0007 seconds
+
+$ python recursion_playground.py
+Calling sum_list with args: ([1, 2, 3, 4, 5],), kwargs: {}
+Calling sum_list with args: ([2, 3, 4, 5],), kwargs: {}
+Calling sum_list with args: ([3, 4, 5],), kwargs: {}
+Calling sum_list with args: ([4, 5],), kwargs: {}
+Calling sum_list with args: ([5],), kwargs: {}
+Calling sum_list with args: ([],), kwargs: {}
+sum_list returned: 0
+sum_list returned: 5
+sum_list returned: 9
+sum_list returned: 12
+sum_list returned: 14
+sum_list returned: 15
+
+
+
+
+
+
+$ python recursion_playground.py
+Calling reverse_string with args: ('hello',), kwargs: {}
+Calling reverse_string with args: ('hell',), kwargs: {}
+Calling reverse_string with args: ('hel',), kwargs: {}
+Calling reverse_string with args: ('he',), kwargs: {}
+Calling reverse_string with args: ('h',), kwargs: {}
+Execution time of reverse_string: 0.0000 seconds
+reverse_string returned: h
+Execution time of reverse_string: 0.0001 seconds
+reverse_string returned: eh
+Execution time of reverse_string: 0.0002 seconds
+reverse_string returned: leh
+Execution time of reverse_string: 0.0003 seconds
+reverse_string returned: lleh
+Execution time of reverse_string: 0.0004 seconds
+reverse_string returned: olleh
+(.venv)
+
+
+start timer
+print Calling
+go deeper
+go deeper
+go deeper
+hit base case
+return upward
+stop timer
+print elapsed
+
+
+
+$ python recursion_playground.py
+Calling preorder with args: (<__main__.TreeNode object at 0x000001e3bb758d70>,), kwargs: {}
+Visiting node: A
+Calling preorder with args: (<__main__.TreeNode object at 0x000001e3bb748e10>,), kwargs: {}
+Visiting node: B
+Calling preorder with args: (<__main__.TreeNode object at 0x000001e3bb692fd0>,), kwargs: {}
+Visiting node: D
+Calling preorder with args: (None,), kwargs: {}
+preorder returned: None
+Execution time of preorder: 0.0001 seconds
+Calling preorder with args: (None,), kwargs: {}
+preorder returned: None
+Execution time of preorder: 0.0000 seconds
+preorder returned: None
+Execution time of preorder: 0.0002 seconds
+Calling preorder with args: (<__main__.TreeNode object at 0x000001e3bb693950>,), kwargs: {}
+Visiting node: E
+Calling preorder with args: (None,), kwargs: {}
+preorder returned: None
+Execution time of preorder: 0.0000 seconds
+Calling preorder with args: (None,), kwargs: {}
+preorder returned: None
+Execution time of preorder: 0.0000 seconds
+preorder returned: None
+Execution time of preorder: 0.0001 seconds
+preorder returned: None
+Execution time of preorder: 0.0005 seconds
+Calling preorder with args: (<__main__.TreeNode object at 0x000001e3bb74a490>,), kwargs: {}
+Visiting node: C
+Calling preorder with args: (None,), kwargs: {}
+preorder returned: None
+Execution time of preorder: 0.0000 seconds
+Calling preorder with args: (None,), kwargs: {}
+preorder returned: None
+Execution time of preorder: 0.0000 seconds
+preorder returned: None
+Execution time of preorder: 0.0001 seconds
+preorder returned: None
+Execution time of preorder: 0.0007 seconds
+(.venv)
+
+This makes a lot more sense now. Started at root node "A" -> visit "D" after getting to "B" -> function
+calls itself 3 more times to visit "E" in 3 steps -> function calls itself to make
+its way to "C" in 4 steps -> finish traversal in 4 steps.
+
+      A
+     / \
+    B   C
+   / \
+  D   E
