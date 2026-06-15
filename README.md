@@ -1,5 +1,5 @@
 Milestone 1
-Recursively find all .py files
+Recursively find all .py files given a file path
 
 Milestone 2
 Build a tree representation of the project
