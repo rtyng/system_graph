@@ -267,3 +267,54 @@ its way to "C" in 4 steps -> finish traversal in 4 steps.
     B   C
    / \
   D   E
+
+
+$ python recursion_playground.py
+Calling inorder with args: (<__main__.TreeNode object at 0x00000296fb648d70>,), kwargs: {}
+Calling inorder with args: (<__main__.TreeNode object at 0x00000296fb638e10>,), kwargs: {}
+Calling inorder with args: (<__main__.TreeNode object at 0x00000296fb563230>,), kwargs: {}
+Calling inorder with args: (None,), kwargs: {}
+inorder returned: None
+Execution time of inorder: 0.0001 seconds
+Visiting node: D
+Calling inorder with args: (None,), kwargs: {}
+inorder returned: None
+Execution time of inorder: 0.0001 seconds
+inorder returned: None
+Execution time of inorder: 0.0003 seconds
+Visiting node: B
+Calling inorder with args: (<__main__.TreeNode object at 0x00000296fb563a80>,), kwargs: {}
+Calling inorder with args: (None,), kwargs: {}
+inorder returned: None
+Execution time of inorder: 0.0000 seconds
+Visiting node: E
+Calling inorder with args: (None,), kwargs: {}
+inorder returned: None
+Execution time of inorder: 0.0000 seconds
+inorder returned: None
+Execution time of inorder: 0.0002 seconds
+inorder returned: None
+Execution time of inorder: 0.0005 seconds
+Visiting node: A
+Calling inorder with args: (<__main__.TreeNode object at 0x00000296fb63a490>,), kwargs: {}
+Calling inorder with args: (None,), kwargs: {}
+inorder returned: None
+Execution time of inorder: 0.0000 seconds
+Visiting node: C
+Calling inorder with args: (None,), kwargs: {}
+inorder returned: None
+Execution time of inorder: 0.0000 seconds
+inorder returned: None
+Execution time of inorder: 0.0001 seconds
+inorder returned: None
+Execution time of inorder: 0.0007 seconds
+(.venv)
+
+
+-----------------------------------------------
+
+#from rp import track_recursion
+#from rp import measure_time
+
+interestingly I dont even need to use @track_recursion or @measure_time when these
+statements are at the top of the .py file

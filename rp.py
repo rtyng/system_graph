@@ -70,7 +70,7 @@ def count_down(n):
         return
 
     print(n)
-    count_down(n-1) # Recursive case
+    count_down(n-1) 
 
 """
 count_down(5)
@@ -130,4 +130,34 @@ def preorder(node):
     preorder(node.left)
     preorder(node.right)
 
-preorder(root)
+@measure_time
+@track_recursion
+def inorder(node):
+    """
+    visits the left subtree, then the current node, then the right subtree
+    """
+    if node is None:
+        return
+
+    inorder(node.left)
+    print("Visiting node:", node.val)
+    inorder(node.right)
+
+@measure_time
+@track_recursion
+def postorder(node):
+    """
+    visits the left subtree, then the right subtree, then the current node
+    """
+    if node is None:
+        return
+
+    postorder(node.left)
+    postorder(node.right)
+    print("Visiting node:", node.val)
+
+
+#preorder(root)
+inorder(root)
+print("\n")
+postorder(root)
